@@ -21,7 +21,7 @@ apt install python3
 
 apt install python-pip3
 
-git clone https://github.com/nearshelby-yt/GhosBot
+git clone https://github.com/nearshelby-yt/GhostBot
 
 cd GhosBot
 
