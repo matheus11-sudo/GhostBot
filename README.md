@@ -18,11 +18,17 @@
 
 ```
 apt install python3
+
 apt install python-pip3
+
 git clone https://github.com/nearshelby-yt/GhosBot
+
 cd GhosBot
+
 pip3 install -r requirements.txt
+
 Abra o codigo fonte e coloque o seu TOKEN na variavel tk
+
 python3 bot.py
 ```
 
