@@ -16,6 +16,7 @@
 <hr>
 <h3>Instalando no linux (Base debian)<h3>
 ```
+  
 apt install python3
 apt install python-pip3
 git clone https://github.com/nearshelby-yt/GhosBot
