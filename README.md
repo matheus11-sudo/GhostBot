@@ -39,11 +39,7 @@ python3 bot.py
 
 ![Contribuir](https://github.com/nearshelby-yt/GhostBot/blob/main/CONTRIBUTING.md)
 
-<h4>📝 Licença</h4>
-<h5>Esse projeto está sob licença. Veja o arquivo 
-  
-  ![LICENSE.md](https://github.com/nearshelby-yt/GhostBot/blob/main/LICENSE.md) 
-  
-  para mais detalhes.</h5>
+<h4>⚖ Licença</h4>
+![LICENSE.md](https://github.com/nearshelby-yt/GhostBot/blob/main/LICENSE.md) 
 </p>
 <hr>
