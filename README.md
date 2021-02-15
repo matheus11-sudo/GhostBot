@@ -10,11 +10,8 @@
 <div align="center">
 <h1>Ghost Bot Telegram</h1>
 <p>Bot para telegram com varias funções feito em Python</p>
-<h2>🚀 Requisitos:</h2>
-<p>- [1] Python 3</p>
-<p>- [2] Pip 3</p>
-<hr>
-<h3>Instalando no linux (Base debian)<h3>
+
+<h3>🚀 Instalando no linux (Base debian)<h3>
 
 ```
 apt install python3
