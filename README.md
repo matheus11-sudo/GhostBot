@@ -38,5 +38,8 @@ python3 bot.py
 <img src="https://github.com/nearshelby-yt/GhostBot/blob/main/ghostbot.jpg" width="400">
 
 ![Contribuir](https://github.com/nearshelby-yt/GhostBot/blob/main/CONTRIBUTING.md)
+
+<h4>📝 Licença</h4>
+<h5>Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.</h5>
 </p>
 <hr>
