@@ -43,4 +43,6 @@ python3 bot.py
 
 ![LICENSE.md](https://github.com/nearshelby-yt/GhostBot/blob/main/LICENSE.md) 
 </p>
+
+[⬆ Voltar ao topo](#nome-do-projeto)<br>
 <hr>
