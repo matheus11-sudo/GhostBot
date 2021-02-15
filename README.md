@@ -11,6 +11,8 @@
 <h1>Ghost Bot Telegram</h1>
 <p>Bot para telegram com varias funções feito em Python</p>
 
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+
 <h3>🚀 Instalando no linux (Base debian)<h3>
 </div>
   
