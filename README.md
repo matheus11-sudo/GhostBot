@@ -15,8 +15,8 @@
 <p>- [2] Pip 3</p>
 <hr>
 <h3>Instalando no linux (Base debian)<h3>
+
 ```
-  
 apt install python3
 apt install python-pip3
 git clone https://github.com/nearshelby-yt/GhosBot
@@ -25,6 +25,7 @@ pip3 install -r requirements.txt
 Abra o codigo fonte e coloque o seu TOKEN na variavel tk
 python3 bot.py
 ```
+
 </div>
 <br>
 <p align="center">
