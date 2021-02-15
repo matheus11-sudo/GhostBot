@@ -12,7 +12,8 @@
 <p>Bot para telegram com varias funções feito em Python</p>
 
 <h3>🚀 Instalando no linux (Base debian)<h3>
-
+</div>
+  
 ```
 apt install python3
 
@@ -28,8 +29,6 @@ Abra o codigo fonte e coloque o seu TOKEN na variavel tk
 
 python3 bot.py
 ```
-
-</div>
 <br>
 <p align="center">
 <img src="https://github.com/nearshelby-yt/GhostBot/blob/main/ghostbot.jpg" width="400">
