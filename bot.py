@@ -7,7 +7,7 @@ from instagram import Insta, instafoto
 from ip import IP
 from geradorpessoa import gerarPessoa
 
-tk = "1666972081:AAGH0uMN5lvlpH_k2bhmy7ZRI0Jv53dO7uU"
+tk = "TOKEN DO SEU BOT"
 
 bot = telebot.TeleBot(tk, parse_mode="markdown")
 
