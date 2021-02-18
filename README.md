@@ -19,6 +19,7 @@
 apt install git
 apt install python3
 apt install python-pip
+sudo -H pip install --upgrade pip
 git clone https://github/nearshelby-yt/GhostBot
 cd GhostBot
 pip install -r requirements.txt
