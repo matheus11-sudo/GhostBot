@@ -40,5 +40,9 @@ python3 bot.py
 <h2>Caso queira ajudar implementando mais funções no bot clique no link abaixo</h2>
 
 [Quero ajudar](https://github.com/nearshelby-yt/GhostBot/blob/main/CONTRIBUTING.md)
+
+<h2>Este projeto esta sobre licensa</h2>
+
+[Ver licensa]()
 <h2>Obs: O bot sempre tera atualizações então fique ligado</h2>
 <hr>
