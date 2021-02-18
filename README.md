@@ -1,4 +1,9 @@
 <hr>
+
+![GitHub Repo stars](https://img.shields.io/github/stars/nearshelby-yt/GhostBot?style=for-the-badge)
+![GitHub watchers](https://img.shields.io/github/watchers/nearshelby-yt/GhostBot?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/nearshelby-yt/GhostBot?style=for-the-badge)
+
 <h1>GhostBot 👻</h1>
 <h2>Oque é?</h2>
 <p>O GhostBot é um bot para Telegram feito em Python utilizando a api do Telegram</p>
