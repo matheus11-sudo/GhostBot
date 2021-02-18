@@ -43,6 +43,8 @@ python3 bot.py
 
 <h2>Este projeto esta sobre licensa</h2>
 
-[Ver licensa]()
+[Ver licensa](https://github.com/nearshelby-yt/GhostBot/blob/main/LICENSE.md)
+
+![GhostBot](https://github.com/nearshelby-yt/GhostBot/blob/main/ghostbot.jpg)
 <h2>Obs: O bot sempre tera atualizações então fique ligado</h2>
 <hr>
