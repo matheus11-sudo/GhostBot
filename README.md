@@ -45,6 +45,7 @@ python3 bot.py
 
 [Ver licensa](https://github.com/nearshelby-yt/GhostBot/blob/main/LICENSE.md)
 
-<img src="ghostbot.jpg" alt="GhostBot">
+<br>
+<img src="ghostbot.jpg" alt="GhostBot" width="400">
 <h2>Obs: O bot sempre tera atualizações então fique ligado</h2>
 <hr>
