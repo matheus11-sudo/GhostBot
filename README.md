@@ -29,7 +29,13 @@ python3 bot.py
 <h2>Como posso usar no termux?</h2>
 
 ```
-
+apt install git -y
+apt install python -y && apt install python2 -y
+git clone https://github/nearshelby-yt/GhostBot
+cd GhostBot
+pip3 install -r requirements.txt
+(Abra o codigo fonte do arquivo bot.py e coloque o token do seu bot na variavel tk)
+python3 bot.py
 ```
 
 <h2>Obs: O bot sempre tera atualizações então fique ligado</h2>
