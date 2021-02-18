@@ -5,4 +5,8 @@
 <h2>Quem o desenvolveu?</h2>
 
 ![Near Shelby](https://github.com/nearshelby-yt/)
+<h2>Caso queira testar clique no link abaixo</h2>
+
+![GhostBot/testar](t.me/ghostvd_bot)
+
 <hr>
