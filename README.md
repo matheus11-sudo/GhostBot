@@ -18,13 +18,19 @@
 ```
 apt install git
 apt install python3
-apt install python-pip
-sudo -H pip install --upgrade pip
+apt install python3-pip
 git clone https://github/nearshelby-yt/GhostBot
 cd GhostBot
 pip3 install -r requirements.txt
 (Abra o codigo fonte do arquivo bot.py e coloque o token do seu bot na variavel tk)
 python3 bot.py
 ```
+
+<h2>Como posso usar no termux?</h2>
+
+```
+
+```
+
 <h2>Obs: O bot sempre tera atualizações então fique ligado</h2>
 <hr>
