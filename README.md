@@ -22,7 +22,7 @@ apt install python-pip
 sudo -H pip install --upgrade pip
 git clone https://github/nearshelby-yt/GhostBot
 cd GhostBot
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 (Abra o codigo fonte do arquivo bot.py e coloque o token do seu bot na variavel tk)
 python3 bot.py
 ```
