@@ -14,6 +14,7 @@
 
 [GhostBot/testar](https://t.me/ghostvd_bot)
 <h2>Como posso instalar e usar no Linux?</h2>
+
 ```
 apt install git
 apt install python3
