@@ -8,5 +8,5 @@
 <h2>Caso queira testar clique no link abaixo</h2>
 
 [GhostBot/testar](https://t.me/ghostvd_bot)
-
+<h2>Obs: O bot sempre tera atualizações então fique ligado</h2>
 <hr>
