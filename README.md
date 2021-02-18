@@ -49,5 +49,5 @@ python3 bot.py
 <img src="ghostbot.jpg" alt="GhostBot" width="400">
 <h2>Obs: O bot sempre tera atualizações então fique ligado</h2>
 <br>
-<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" /><img src=https://img.shields.io/badge/youtube-%23EE4831.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
+<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" width="100"/>
 <hr>
