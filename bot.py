@@ -6,7 +6,7 @@ from id_user import UserID
 from instagram import Insta, instafoto
 from ip import IP
 from geradorpessoa import gerarPessoa
-from gercnpf import geradorCNPJ
+from gercnpj import GeradorCNPJ
 
 tk = "TOKEN DO SEU BOT"
 
