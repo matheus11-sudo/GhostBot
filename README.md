@@ -7,6 +7,6 @@
 ![Near Shelby](https://github.com/nearshelby-yt/)
 <h2>Caso queira testar clique no link abaixo</h2>
 
-![GhostBot/testar](t.me/ghostvd_bot)
+![GhostBot/testar](https://t.me/ghostvd_bot)
 
 <hr>
