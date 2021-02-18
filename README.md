@@ -37,6 +37,8 @@ pip3 install -r requirements.txt
 (Abra o codigo fonte do arquivo bot.py e coloque o token do seu bot na variavel tk)
 python3 bot.py
 ```
+<h2>Caso queira ajudar implementando mais funções no bot clique no link abaixo</h2>
 
+[Quero ajudar](https://github.com/nearshelby-yt/GhostBot/blob/main/CONTRIBUTING.md)
 <h2>Obs: O bot sempre tera atualizações então fique ligado</h2>
 <hr>
