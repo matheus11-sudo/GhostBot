@@ -6,6 +6,7 @@ from id_user import UserID
 from instagram import Insta, instafoto
 from ip import IP
 from geradorpessoa import gerarPessoa
+from gercnpf import geradorCNPJ
 
 tk = "TOKEN DO SEU BOT"
 
@@ -54,7 +55,12 @@ def GeradorPessoa(message):
     bot.reply_to(message, '*Pode demorar um pouco*')
     bot.reply_to(message, gerarPessoa())
     bot.reply_to(message, '*Pessoa gerada, se inscreva no meu canal... digite o comando /criador*')
-
+    
+@bot.message_handler(commands=['gercnpj'])
+def gerarCNPJ(message):
+    
+    bot.reply_to(message, GeradorCNPJ(message))
+    
 @bot.message_handler(commands=['yt'])
 def download(message):
     bot.reply_to(message, '*Baixando, aguarde...*')
