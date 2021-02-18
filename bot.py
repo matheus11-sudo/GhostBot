@@ -15,7 +15,7 @@ bot = telebot.TeleBot(tk, parse_mode="markdown")
 
 @bot.message_handler(commands=['start', 'help', 'comesar', 'acorda'])
 def welcome(message):
-    bot.reply_to(message, '*Olá, sou um bot feito em Python criado pelo @NearShelby_yt tenho varias funções porem a mais usada é a /yt, esse comando baixa o video que você desejar e te manda \n\nObs: Videos longos demoram muito para baixar ou as vezes nem baixam\n\n basta digitar o comando /yt url*\n\n_Exemplo:_\n\n/yt `https://www.youtube.com/watch?v=iJ_pigL5-Lo`\n\n*Outros comandos:*\n\n/criador\n/apis\n/dpwb\n/lokicpf\n/id\n/insta\n/ip\n/gerarpessoa\n')
+    bot.reply_to(message, '*Olá, sou um bot feito em Python criado pelo @NearShelby_yt tenho varias funções porem a mais usada é a /yt, esse comando baixa o video que você desejar e te manda \n\nObs: Videos longos demoram muito para baixar ou as vezes nem baixam\n\n basta digitar o comando /yt url*\n\n_Exemplo:_\n\n/yt `https://www.youtube.com/watch?v=iJ_pigL5-Lo`\n\n*Outros comandos:*\n\n/criador\n/apis\n/dpwb\n/lokicpf\n/id\n/insta\n/ip\n/gerarpessoa\n/gercnpj')
 
 @bot.message_handler(commands=['criador'])
 def ns(message):
