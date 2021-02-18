@@ -48,4 +48,6 @@ python3 bot.py
 <br>
 <img src="ghostbot.jpg" alt="GhostBot" width="400">
 <h2>Obs: O bot sempre tera atualizações então fique ligado</h2>
+<br>
+<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
 <hr>
