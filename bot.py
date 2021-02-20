@@ -6,6 +6,7 @@ from id_user import UserID
 from instagram import Insta, instafoto
 from ip import IP
 from gercnpj import GeradorCNPJ
+from gercpf import GeradorCPF
 
 tk = "O TOKEN DO SEU BOT"
 
@@ -50,8 +51,13 @@ def ConsultaIP(message):
 
 @bot.message_handler(commands=['gercnpj'])
 def gerarCNPJ(message):
-    
+    bot.reply_to(message, '*Gerando, aguarde...*')
     bot.reply_to(message, GeradorCNPJ(message))
+    
+@bot.message_handler(commands=['gercpf'])
+def gerarCPF(message):
+    bot.reply_to(message, '*Gerando, aguarde...*')
+    bot.reply_to(message, GeradorCPF(message))
     
 @bot.message_handler(commands=['yt'])
 def download(message):
