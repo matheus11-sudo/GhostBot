@@ -5,7 +5,6 @@ from pytube import YouTube
 from id_user import UserID
 from instagram import Insta, instafoto
 from ip import IP
-from geradorpessoa import gerarPessoa
 from gercnpj import GeradorCNPJ
 
 tk = "O TOKEN DO SEU BOT"
@@ -49,13 +48,6 @@ def ConsultaIP(message):
 
     bot.reply_to(message, IP(message))
 
-@bot.message_handler(commands=['gerarpessoa'])
-def GeradorPessoa(message):
-    bot.reply_to(message, '*Gerando, aguarde...*')
-    bot.reply_to(message, '*Pode demorar um pouco*')
-    bot.reply_to(message, gerarPessoa())
-    bot.reply_to(message, '*Pessoa gerada, se inscreva no meu canal... digite o comando /criador*')
-    
 @bot.message_handler(commands=['gercnpj'])
 def gerarCNPJ(message):
     
