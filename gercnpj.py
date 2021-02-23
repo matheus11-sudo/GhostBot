@@ -1,6 +1,10 @@
-from requests import get
+import requests
 
 def GeradorCNPJ(message):
 
-    cnpj = get('http://geradorapp.com/api/v1/cnpj/generate?token=f01e0024a26baef3cc53a2ac208dd141').json()['data']['number_formatted']
-    return f'*CNPJ: *`{cnpj}`'
+    request = requests.get('http://geradorapp.com/api/v1/cnpj/generate?token=f01e0024a26baef3cc53a2ac208dd141').json()
+    dados = request.get('data')
+    numero = dados.get('number_formatted')
+
+    return f'''
+CNPJ: {numero}'''

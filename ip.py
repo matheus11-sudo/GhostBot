@@ -1,17 +1,18 @@
-from requests import get
+import requests
+
 
 def IP(message):
 
-    men = message.text.replace('https://', '').replace('http://', '').replace('/ip ', '')
-    if len(men) < 4:
-        return '*Formato incorreto*\n`Ex`: *8.8.8.8* `ou` *google.com*.'
+    request = requests.get('http://ip-api.com/json/' + message.text.replace(
+        'https://', '').replace('http://', '').replace('@merkun_bot', '').replace('/ip ', '')).json()
 
-    else:
-        r = get('http://ip-api.com/json/' + men).json()
+    if 'message' not in request:
 
         return f'''
-*IP*: `{r.get('query')}`
-*Pais*: `{r.get('country')}`
-*Estado*: `{r.get('regionName')}`
-*Cidade*: `{r.get('city')}`
-*Provedor*: `{r.get('isp')}`'''
+IP: {request.get('query')}
+Pais: {request.get('country')}
+Estado: {request.get('regionName')}
+Cidade: {request.get('city')}
+Provedor: {request.get('isp')}'''
+    else:
+        return 'IP invalido'
