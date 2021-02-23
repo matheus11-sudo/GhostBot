@@ -9,7 +9,7 @@ from gercnpj import GeradorCNPJ
 from gercpf import GeradorCPF
 from gercns import GeradorCNS
 
-tk = "1633471156:AAF0nYn8zwtCdjpOcKK5lpbmcsnbNQksARo"
+tk = "TOKEN DO SEU BOT"
 
 bot = telebot.TeleBot(tk, parse_mode="markdown")
 
