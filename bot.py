@@ -10,7 +10,7 @@ from gercpf import GeradorCPF
 from gercns import GeradorCNS
 from placa import PLACA
 
-tk = "1633471156:AAF0nYn8zwtCdjpOcKK5lpbmcsnbNQksARo"
+tk = "TOKEN DO SEU BOT"
 
 bot = telebot.TeleBot(tk, parse_mode="markdown")
 
