@@ -17,7 +17,7 @@ bot = telebot.TeleBot(tk, parse_mode="markdown")
 
 @bot.message_handler(commands=['start', 'help', 'comesar', 'acorda'])
 def welcome(message):
-    bot.reply_to(message, '*Olá, sou um bot feito em Python criado pelo @NearShelby_yt tenho varias funções porem a mais usada é a /yt, esse comando baixa o video que você desejar e te manda \n\nObs: Videos longos demoram muito para baixar ou as vezes nem baixam\n\n basta digitar o comando /yt url*\n\n_Exemplo:_\n\n/yt `https://www.youtube.com/watch?v=iJ_pigL5-Lo`\n\n*Outros comandos:**\n\n/criador Youtube e github do criador \n\n/apis Lista de apis\n\n/lokicpf Obter comandos para instalar a tool LokiCpf\n\n/id O bot ira te identificar\n\n/insta Dados de um perfil no Instagram\n\n/ip Consultar ip\n\n/gercpf Gerar CPF \n\n/gercnpj Gera um CNPJ\n\n/gercns Gera um CNS\n\nCriador: @NearShelby_yt*')
+    bot.reply_to(message, '*Olá, sou um bot feito em Python criado pelo @NearShelby_yt tenho varias funções porem a mais usada é a /yt, esse comando baixa o video que você desejar e te manda \n\nObs: Videos longos demoram muito para baixar ou as vezes nem baixam\n\n basta digitar o comando /yt url*\n\n_Exemplo:_\n\n/yt `https://www.youtube.com/watch?v=iJ_pigL5-Lo`\n\n*Outros comandos:**\n\n/criador Youtube e github do criador \n\n/apis Lista de apis\n\n/lokicpf Obter comandos para instalar a tool LokiCpf\n\n/id O bot ira te identificar\n\n/insta Dados de um perfil no Instagram\n\n/ip Consultar ip\n\n/gercpf Gerar CPF \n\n/gercnpj Gera um CNPJ\n\n/gercns Gera um CNS\n\n/placa Consultar placa de carro\n\nCriador: @NearShelby_yt*')
 
 @bot.message_handler(commands=['criador'])
 def ns(message):
