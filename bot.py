@@ -8,8 +8,9 @@ from ip import IP
 from gercnpj import GeradorCNPJ
 from gercpf import GeradorCPF
 from gercns import GeradorCNS
+from placa import PLACA
 
-tk = "TOKEN DO SEU BOT"
+tk = "COLOQUE O TOKEN DO SEU BOT"
 
 bot = telebot.TeleBot(tk, parse_mode="markdown")
 
@@ -36,18 +37,15 @@ def lokicpf(message):
 
 @bot.message_handler(commands=['id'])
 def reply(message):
-
     bot.reply_to(message, UserID(message))
 
 @bot.message_handler(commands=['insta'])
 def Instagram(message):
-
     bot.reply_to(message, Insta(message))
     bot.send_photo(message.chat.id, instafoto(message))
 
 @bot.message_handler(commands=['ip'])
 def ConsultaIP(message):
-
     bot.reply_to(message, IP(message))
 
 @bot.message_handler(commands=['gercnpj'])
@@ -64,7 +62,11 @@ def gerarCPF(message):
 def gerarCNS(message):
     bot.reply_to(message, '*Gerando, aguarde...*')
     bot.reply_to(message, GeradorCNS(message))
-    
+
+@bot.message_handler(commands=['placa'])
+def placa(message):
+    bot.reply_to(message, PLACA(message))
+
 @bot.message_handler(commands=['yt'])
 def download(message):
     bot.reply_to(message, '*Baixando, aguarde...*')
