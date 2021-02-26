@@ -8,6 +8,7 @@ from ip import IP
 from gercnpj import GeradorCNPJ
 from gercpf import GeradorCPF
 from portscan import scan
+from placa import PLACA
 
 tk = "TOKEN DO SEU BOT"
 
@@ -54,7 +55,7 @@ def ConsultaIP(message):
 def gerarCNPJ(message):
     bot.reply_to(message, '*Gerando, aguarde...*')
     bot.reply_to(message, GeradorCNPJ(message))
-    
+
 @bot.message_handler(commands=['gercpf'])
 def gerarCPF(message):
     bot.reply_to(message, '*Gerando, aguarde...*')
@@ -64,6 +65,10 @@ def gerarCPF(message):
 def scanports(message):
     bot.reply_to(message, '*Aguarde isso pode demorar um pouco*')
     bot.reply_to(message, scan(message))
+
+@bot.message_handler(commands=['placa'])
+def placa_consulta(message):
+    bot.reply_to(message, PLACA(message))
 
 @bot.message_handler(commands=['yt'])
 def download(message):
