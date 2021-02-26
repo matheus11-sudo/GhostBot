@@ -1,4 +1,11 @@
 def UserID(message):
 
-    return f'*Nome*: `{message.from_user.first_name}`\n*Username*: `{message.from_user.username}`\n*ChatID*: `{message.from_user.id}`'
+    return f'''
+*>>> Ola {message.from_user.first_name} <<<*
+
+*Nome*: `{message.from_user.first_name}`
+*Username*: `{message.from_user.username}`
+*ChatID*: `{message.from_user.id}`
+
+*>>> Identificado {message.from_user.first_name} <<<*'''
 
