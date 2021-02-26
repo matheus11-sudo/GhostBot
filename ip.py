@@ -4,15 +4,20 @@ import requests
 def IP(message):
 
     request = requests.get('http://ip-api.com/json/' + message.text.replace(
-        'https://', '').replace('http://', '').replace('@merkun_bot', '').replace('/ip ', '')).json()
+        'https://', '').replace('http://', '').replace('@ghostvd_bot', '').replace('/ip ', '')).json()
 
     if 'message' not in request:
 
         return f'''
-IP: {request.get('query')}
+*IP: {request.get('query')}
 Pais: {request.get('country')}
 Estado: {request.get('regionName')}
 Cidade: {request.get('city')}
-Provedor: {request.get('isp')}'''
+Provedor: {request.get('isp')}
+Latitude: {request.get('lat')}
+Longitude: {request.get('lon')}
+Timezone: {request.get('timezone')}
+As: {request.get('as')}*
+'''
     else:
-        return 'IP invalido'
+        return '*IP invalido*'
